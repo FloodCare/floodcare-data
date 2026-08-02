@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-08-03 00:19:16"
+    "timestamp_request": "2026-08-03 00:30:11"
   },
   "cuaca_bmkg": {
     "arah_angin": "SE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status BAHAYA. Tinggi air 183 cm mencapai ambang bahaya (138 cm), berpotensi naik ke jalan. Sirine aktif. Masyarakat diminta menjauhi bantaran dan bersiap mengungsi.",
+  "rekomendasi": "Status WASPADA. Tinggi air 136 cm, cuaca membaik. Lakukan pemantauan berkala.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 161.92,
+    "jsn_distance_cm": 208.8,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 183.08,
+    "jsn_tinggi_air_cm": 136.2,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 0.01,
+    "laju_cm_per_menit": 30.58,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "naik",
-    "timestamp": "2026-08-03 00:25:38",
+    "status_laju": "naik_sangat_cepat",
+    "timestamp": "2026-08-03 00:30:47",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -191,69 +191,69 @@
     }
   },
   "status": "success",
-  "status_banjir": "bahaya",
-  "timestamp": "2026-08-03 00:25:38",
-  "updated_at": "2026-08-03 00:25:40",
+  "status_banjir": "waspada",
+  "timestamp": "2026-08-03 00:30:47",
+  "updated_at": "2026-08-03 00:30:50",
   "riwayat": [
     {
-      "waktu": "2026-08-03 00:23:26",
-      "tinggi_air_cm": 121.01,
+      "waktu": "2026-08-03 00:27:57",
+      "tinggi_air_cm": 81.73,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-03 00:28:09",
+      "tinggi_air_cm": 125.24,
       "status": "waspada"
     },
     {
-      "waktu": "2026-08-03 00:23:37",
-      "tinggi_air_cm": 121.86,
+      "waktu": "2026-08-03 00:28:21",
+      "tinggi_air_cm": 116.57,
       "status": "waspada"
     },
     {
-      "waktu": "2026-08-03 00:23:49",
-      "tinggi_air_cm": 121.21,
+      "waktu": "2026-08-03 00:28:33",
+      "tinggi_air_cm": 183.22,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-08-03 00:28:44",
+      "tinggi_air_cm": 82.65,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-03 00:28:56",
+      "tinggi_air_cm": 115.2,
       "status": "waspada"
     },
     {
-      "waktu": "2026-08-03 00:24:01",
-      "tinggi_air_cm": 120.06,
+      "waktu": "2026-08-03 00:29:08",
+      "tinggi_air_cm": 81.37,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-03 00:29:21",
+      "tinggi_air_cm": 116.73,
       "status": "waspada"
     },
     {
-      "waktu": "2026-08-03 00:24:13",
-      "tinggi_air_cm": 184.63,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-08-03 00:24:25",
-      "tinggi_air_cm": 184.22,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-08-03 00:24:36",
-      "tinggi_air_cm": 120.6,
+      "waktu": "2026-08-03 00:30:11",
+      "tinggi_air_cm": 117.92,
       "status": "waspada"
     },
     {
-      "waktu": "2026-08-03 00:24:48",
-      "tinggi_air_cm": 120.02,
+      "waktu": "2026-08-03 00:30:23",
+      "tinggi_air_cm": 164.44,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-08-03 00:30:35",
+      "tinggi_air_cm": 142.8,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-08-03 00:30:47",
+      "tinggi_air_cm": 136.2,
       "status": "waspada"
-    },
-    {
-      "waktu": "2026-08-03 00:25:00",
-      "tinggi_air_cm": 182.43,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-08-03 00:25:12",
-      "tinggi_air_cm": 183.0,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-08-03 00:25:24",
-      "tinggi_air_cm": 183.42,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-08-03 00:25:35",
-      "tinggi_air_cm": 183.03,
-      "status": "bahaya"
     }
   ]
 }
