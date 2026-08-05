@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 178 cm namun sensor level menunjukkan 'KOSONG'. Kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Perlu cek sensor. JSN membaca 180 cm namun sensor level menunjukkan 'KOSONG'. Kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 166.96,
+    "jsn_distance_cm": 164.71,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 178.04,
+    "jsn_tinggi_air_cm": 180.29,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": -0.19,
+    "laju_cm_per_menit": 0.08,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "turun",
-    "timestamp": "2026-08-06 05:40:44",
+    "status_laju": "naik",
+    "timestamp": "2026-08-06 05:45:52",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "cek_sensor",
-  "timestamp": "2026-08-06 05:40:44",
-  "updated_at": "2026-08-06 05:40:47",
+  "timestamp": "2026-08-06 05:45:52",
+  "updated_at": "2026-08-06 05:45:55",
   "riwayat": [
     {
-      "waktu": "2026-08-06 05:38:27",
-      "tinggi_air_cm": 183.19,
+      "waktu": "2026-08-06 05:43:45",
+      "tinggi_air_cm": 179.1,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:38:39",
-      "tinggi_air_cm": 181.2,
+      "waktu": "2026-08-06 05:43:57",
+      "tinggi_air_cm": 179.1,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:38:51",
-      "tinggi_air_cm": 182.34,
+      "waktu": "2026-08-06 05:44:09",
+      "tinggi_air_cm": 179.65,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:39:03",
-      "tinggi_air_cm": 182.47,
+      "waktu": "2026-08-06 05:44:21",
+      "tinggi_air_cm": 179.23,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:39:14",
-      "tinggi_air_cm": 183.11,
+      "waktu": "2026-08-06 05:44:32",
+      "tinggi_air_cm": 179.58,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:39:26",
-      "tinggi_air_cm": 182.56,
+      "waktu": "2026-08-06 05:44:44",
+      "tinggi_air_cm": 179.92,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:39:38",
-      "tinggi_air_cm": 181.51,
+      "waktu": "2026-08-06 05:44:56",
+      "tinggi_air_cm": 177.96,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:39:50",
-      "tinggi_air_cm": 181.64,
+      "waktu": "2026-08-06 05:45:08",
+      "tinggi_air_cm": 179.88,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:40:02",
-      "tinggi_air_cm": 180.18,
+      "waktu": "2026-08-06 05:45:19",
+      "tinggi_air_cm": 181.04,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:40:13",
-      "tinggi_air_cm": 178.86,
+      "waktu": "2026-08-06 05:45:31",
+      "tinggi_air_cm": 179.45,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:40:25",
-      "tinggi_air_cm": 179.42,
+      "waktu": "2026-08-06 05:45:43",
+      "tinggi_air_cm": 180.46,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 05:40:37",
-      "tinggi_air_cm": 177.92,
+      "waktu": "2026-08-06 05:45:55",
+      "tinggi_air_cm": 179.76,
       "status": "cek_sensor"
     }
   ]
