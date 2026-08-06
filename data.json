@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-08-06 16:13:17"
+    "timestamp_request": "2026-08-06 16:24:14"
   },
   "cuaca_bmkg": {
     "arah_angin": "SE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 103 cm namun sensor level menunjukkan 'KOSONG'. Kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Perlu cek sensor. JSN membaca 108 cm namun sensor level menunjukkan 'KOSONG'. Kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 242.0,
+    "jsn_distance_cm": 237.31,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 103.0,
+    "jsn_tinggi_air_cm": 107.69,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 6.48,
+    "laju_cm_per_menit": 7.81,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
     "status_laju": "naik_sangat_cepat",
-    "timestamp": "2026-08-06 16:21:53",
+    "timestamp": "2026-08-06 16:27:22",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "cek_sensor",
-  "timestamp": "2026-08-06 16:21:53",
-  "updated_at": "2026-08-06 16:21:55",
+  "timestamp": "2026-08-06 16:27:22",
+  "updated_at": "2026-08-06 16:27:23",
   "riwayat": [
     {
-      "waktu": "2026-08-06 16:19:40",
-      "tinggi_air_cm": 91.63,
+      "waktu": "2026-08-06 16:25:08",
+      "tinggi_air_cm": 84.67,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-06 16:19:51",
-      "tinggi_air_cm": 117.74,
+      "waktu": "2026-08-06 16:25:20",
+      "tinggi_air_cm": 115.41,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-06 16:20:03",
-      "tinggi_air_cm": 107.33,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-06 16:20:15",
-      "tinggi_air_cm": 116.68,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-06 16:20:27",
-      "tinggi_air_cm": 115.15,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-06 16:20:39",
-      "tinggi_air_cm": 82.78,
+      "waktu": "2026-08-06 16:25:32",
+      "tinggi_air_cm": 70.81,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-06 16:20:51",
-      "tinggi_air_cm": 113.86,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-06 16:21:03",
-      "tinggi_air_cm": 101.88,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-06 16:21:15",
-      "tinggi_air_cm": 84.46,
+      "waktu": "2026-08-06 16:25:44",
+      "tinggi_air_cm": 76.83,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-06 16:21:27",
-      "tinggi_air_cm": 118.72,
-      "status": "cek_sensor"
+      "waktu": "2026-08-06 16:25:56",
+      "tinggi_air_cm": 67.11,
+      "status": "aman"
     },
     {
-      "waktu": "2026-08-06 16:21:38",
-      "tinggi_air_cm": 112.98,
-      "status": "cek_sensor"
+      "waktu": "2026-08-06 16:26:08",
+      "tinggi_air_cm": 77.7,
+      "status": "aman"
     },
     {
-      "waktu": "2026-08-06 16:21:50",
-      "tinggi_air_cm": 76.21,
+      "waktu": "2026-08-06 16:26:20",
+      "tinggi_air_cm": 69.3,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-06 16:26:32",
+      "tinggi_air_cm": 77.28,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-06 16:26:44",
+      "tinggi_air_cm": 72.88,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-06 16:26:55",
+      "tinggi_air_cm": 77.06,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-06 16:27:07",
+      "tinggi_air_cm": 54.48,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-06 16:27:19",
+      "tinggi_air_cm": 94.94,
       "status": "aman"
     }
   ]
