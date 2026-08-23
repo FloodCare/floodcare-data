@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-08-23 16:59:11"
+    "timestamp_request": "2026-08-23 17:09:11"
   },
   "cuaca_bmkg": {
     "arah_angin": "NE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 127 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Status AMAN. Tinggi air 94 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 217.8,
+    "jsn_distance_cm": 251.25,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 127.2,
+    "jsn_tinggi_air_cm": 93.75,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 1.77,
+    "laju_cm_per_menit": -5.89,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "naik",
-    "timestamp": "2026-08-23 17:04:15",
+    "status_laju": "turun",
+    "timestamp": "2026-08-23 17:09:30",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -191,68 +191,68 @@
     }
   },
   "status": "success",
-  "status_banjir": "cek_sensor",
-  "timestamp": "2026-08-23 17:04:15",
-  "updated_at": "2026-08-23 17:04:17",
+  "status_banjir": "aman",
+  "timestamp": "2026-08-23 17:09:30",
+  "updated_at": "2026-08-23 17:09:33",
   "riwayat": [
     {
-      "waktu": "2026-08-23 17:01:57",
-      "tinggi_air_cm": 87.52,
+      "waktu": "2026-08-23 17:07:17",
+      "tinggi_air_cm": 118.14,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-08-23 17:07:29",
+      "tinggi_air_cm": 73.27,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 17:02:09",
-      "tinggi_air_cm": 120.99,
+      "waktu": "2026-08-23 17:07:41",
+      "tinggi_air_cm": 118.35,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-23 17:02:21",
-      "tinggi_air_cm": 122.01,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 17:02:33",
-      "tinggi_air_cm": 122.25,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 17:02:45",
-      "tinggi_air_cm": 184.76,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 17:02:56",
-      "tinggi_air_cm": 121.54,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 17:03:08",
-      "tinggi_air_cm": 122.08,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 17:03:20",
-      "tinggi_air_cm": 83.07,
+      "waktu": "2026-08-23 17:07:53",
+      "tinggi_air_cm": 69.97,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 17:03:32",
-      "tinggi_air_cm": 183.15,
+      "waktu": "2026-08-23 17:08:05",
+      "tinggi_air_cm": 115.97,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-23 17:03:44",
-      "tinggi_air_cm": 120.54,
+      "waktu": "2026-08-23 17:08:17",
+      "tinggi_air_cm": 118.32,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-23 17:03:56",
-      "tinggi_air_cm": 75.62,
+      "waktu": "2026-08-23 17:08:28",
+      "tinggi_air_cm": 88.64,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 17:04:08",
-      "tinggi_air_cm": 103.07,
+      "waktu": "2026-08-23 17:08:40",
+      "tinggi_air_cm": 118.76,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-08-23 17:08:52",
+      "tinggi_air_cm": 117.77,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-08-23 17:09:04",
+      "tinggi_air_cm": 116.92,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-08-23 17:09:16",
+      "tinggi_air_cm": 78.26,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 17:09:28",
+      "tinggi_air_cm": 115.38,
       "status": "cek_sensor"
     }
   ]
