@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-08-23 13:23:17"
+    "timestamp_request": "2026-08-23 13:34:11"
   },
   "cuaca_bmkg": {
     "arah_angin": "SE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 74 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
+  "rekomendasi": "Perlu cek sensor. JSN membaca 119 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 271.15,
+    "jsn_distance_cm": 225.64,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 73.85,
+    "jsn_tinggi_air_cm": 119.36,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 0.97,
+    "laju_cm_per_menit": 1.4,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
     "status_laju": "naik",
-    "timestamp": "2026-08-23 13:31:00",
+    "timestamp": "2026-08-23 13:36:15",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -191,68 +191,68 @@
     }
   },
   "status": "success",
-  "status_banjir": "aman",
-  "timestamp": "2026-08-23 13:31:00",
-  "updated_at": "2026-08-23 13:31:03",
+  "status_banjir": "cek_sensor",
+  "timestamp": "2026-08-23 13:36:15",
+  "updated_at": "2026-08-23 13:36:17",
   "riwayat": [
     {
-      "waktu": "2026-08-23 13:28:47",
-      "tinggi_air_cm": 115.84,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:28:59",
-      "tinggi_air_cm": 69.83,
+      "waktu": "2026-08-23 13:33:20",
+      "tinggi_air_cm": 85.18,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 13:29:11",
-      "tinggi_air_cm": 71.51,
+      "waktu": "2026-08-23 13:34:11",
+      "tinggi_air_cm": 116.47,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-08-23 13:34:21",
+      "tinggi_air_cm": 74.27,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 13:29:23",
-      "tinggi_air_cm": 117.76,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:29:35",
-      "tinggi_air_cm": 84.14,
+      "waktu": "2026-08-23 13:34:32",
+      "tinggi_air_cm": 75.33,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-23 13:29:46",
-      "tinggi_air_cm": 117.98,
+      "waktu": "2026-08-23 13:34:44",
+      "tinggi_air_cm": 87.78,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 13:34:56",
+      "tinggi_air_cm": 81.6,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 13:35:08",
+      "tinggi_air_cm": 118.55,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-23 13:29:58",
-      "tinggi_air_cm": 116.21,
+      "waktu": "2026-08-23 13:35:20",
+      "tinggi_air_cm": 94.08,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 13:35:32",
+      "tinggi_air_cm": 97.4,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 13:35:44",
+      "tinggi_air_cm": 76.09,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-23 13:35:56",
+      "tinggi_air_cm": 119.28,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-23 13:30:10",
-      "tinggi_air_cm": 177.76,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:30:22",
-      "tinggi_air_cm": 116.1,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:30:34",
-      "tinggi_air_cm": 116.55,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:30:46",
-      "tinggi_air_cm": 102.15,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-08-23 13:30:58",
-      "tinggi_air_cm": 116.46,
+      "waktu": "2026-08-23 13:36:07",
+      "tinggi_air_cm": 104.61,
       "status": "cek_sensor"
     }
   ]
