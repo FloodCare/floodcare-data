@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-08-27 00:49:14"
+    "timestamp_request": "2026-08-27 00:59:16"
   },
   "cuaca_bmkg": {
     "arah_angin": "SE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 14 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
+  "rekomendasi": "Status AMAN. Tinggi air 18 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 330.77,
+    "jsn_distance_cm": 326.55,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 14.23,
+    "jsn_tinggi_air_cm": 18.45,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": -6.6,
+    "laju_cm_per_menit": 0.89,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "turun",
-    "timestamp": "2026-08-27 00:55:49",
+    "status_laju": "naik",
+    "timestamp": "2026-08-27 01:00:50",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "aman",
-  "timestamp": "2026-08-27 00:55:49",
-  "updated_at": "2026-08-27 00:55:53",
+  "timestamp": "2026-08-27 01:00:50",
+  "updated_at": "2026-08-27 01:00:54",
   "riwayat": [
     {
-      "waktu": "2026-08-27 00:53:30",
+      "waktu": "2026-08-27 00:58:30",
+      "tinggi_air_cm": 7.55,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:58:42",
+      "tinggi_air_cm": 12.93,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:58:54",
+      "tinggi_air_cm": 15.29,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:59:06",
+      "tinggi_air_cm": 55.94,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:59:18",
+      "tinggi_air_cm": 73.97,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:59:30",
+      "tinggi_air_cm": 5.83,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-08-27 00:59:42",
       "tinggi_air_cm": 13.82,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-27 00:53:42",
-      "tinggi_air_cm": 13.42,
+      "waktu": "2026-08-27 00:59:54",
+      "tinggi_air_cm": 14.32,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-27 00:53:54",
-      "tinggi_air_cm": 14.21,
+      "waktu": "2026-08-27 01:00:06",
+      "tinggi_air_cm": 13.03,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-27 00:54:06",
-      "tinggi_air_cm": 13.8,
+      "waktu": "2026-08-27 01:00:18",
+      "tinggi_air_cm": 13.45,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-27 00:54:18",
-      "tinggi_air_cm": 15.54,
+      "waktu": "2026-08-27 01:00:30",
+      "tinggi_air_cm": 24.63,
       "status": "aman"
     },
     {
-      "waktu": "2026-08-27 00:54:30",
-      "tinggi_air_cm": 12.98,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:54:42",
-      "tinggi_air_cm": 17.62,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:54:54",
-      "tinggi_air_cm": 14.21,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:55:06",
-      "tinggi_air_cm": 15.05,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:55:18",
-      "tinggi_air_cm": 32.2,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:55:30",
-      "tinggi_air_cm": 13.78,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-08-27 00:55:42",
-      "tinggi_air_cm": 22.36,
+      "waktu": "2026-08-27 01:00:42",
+      "tinggi_air_cm": 13.79,
       "status": "aman"
     }
   ]
