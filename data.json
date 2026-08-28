@@ -1,64 +1,258 @@
 {
-  "updated_at": "2026-08-28 08:01:12",
+  "bmkg": {
+    "cuaca": {
+      "arah_angin": "SE",
+      "deskripsi": "Cerah",
+      "jarak_pandang": "< 9 km",
+      "kecepatan_angin_kmh": 12.8,
+      "kelembapan_persen": 73.0,
+      "suhu_c": 29.0,
+      "waktu_lokal": "2026-08-28 09:00:00",
+      "waktu_utc": "2026-08-28 02:00:00"
+    },
+    "lokasi": {
+      "desa": "Simpang Empat",
+      "kecamatan": "Simpang Empat",
+      "kotkab": "Asahan",
+      "lat": 2.9085676098,
+      "lon": 99.7461731453,
+      "provinsi": "Sumatera Utara"
+    },
+    "prakiraan": [
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 12.8,
+        "kelembapan_persen": 73.0,
+        "suhu_c": 29.0,
+        "waktu_lokal": "2026-08-28 09:00:00",
+        "waktu_utc": "2026-08-28 02:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 9.6,
+        "kelembapan_persen": 56.0,
+        "suhu_c": 33.0,
+        "waktu_lokal": "2026-08-28 12:00:00",
+        "waktu_utc": "2026-08-28 05:00:00"
+      },
+      {
+        "arah_angin": "E",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "> 10 km",
+        "kecepatan_angin_kmh": 7.4,
+        "kelembapan_persen": 53.0,
+        "suhu_c": 33.0,
+        "waktu_lokal": "2026-08-28 15:00:00",
+        "waktu_utc": "2026-08-28 08:00:00"
+      },
+      {
+        "arah_angin": "NE",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 10.5,
+        "kelembapan_persen": 81.0,
+        "suhu_c": 29.0,
+        "waktu_lokal": "2026-08-28 18:00:00",
+        "waktu_utc": "2026-08-28 11:00:00"
+      },
+      {
+        "arah_angin": "N",
+        "deskripsi": "Hujan Ringan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 3.3,
+        "kelembapan_persen": 97.0,
+        "suhu_c": 25.0,
+        "waktu_lokal": "2026-08-28 21:00:00",
+        "waktu_utc": "2026-08-28 14:00:00"
+      },
+      {
+        "arah_angin": "NW",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 3.3,
+        "kelembapan_persen": 98.0,
+        "suhu_c": 25.0,
+        "waktu_lokal": "2026-08-29 00:00:00",
+        "waktu_utc": "2026-08-28 17:00:00"
+      },
+      {
+        "arah_angin": "W",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 3,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-08-29 03:00:00",
+        "waktu_utc": "2026-08-28 20:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 9 km",
+        "kecepatan_angin_kmh": 5,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-08-29 06:00:00",
+        "waktu_utc": "2026-08-28 23:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 10 km",
+        "kecepatan_angin_kmh": 6.1,
+        "kelembapan_persen": 84.0,
+        "suhu_c": 28.0,
+        "waktu_lokal": "2026-08-29 09:00:00",
+        "waktu_utc": "2026-08-29 02:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "> 10 km",
+        "kecepatan_angin_kmh": 5.7,
+        "kelembapan_persen": 57.0,
+        "suhu_c": 32.0,
+        "waktu_lokal": "2026-08-29 12:00:00",
+        "waktu_utc": "2026-08-29 05:00:00"
+      },
+      {
+        "arah_angin": "NE",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "> 10 km",
+        "kecepatan_angin_kmh": 5.5,
+        "kelembapan_persen": 57.0,
+        "suhu_c": 32.0,
+        "waktu_lokal": "2026-08-29 15:00:00",
+        "waktu_utc": "2026-08-29 08:00:00"
+      },
+      {
+        "arah_angin": "N",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "> 10 km",
+        "kecepatan_angin_kmh": 4.8,
+        "kelembapan_persen": 86.0,
+        "suhu_c": 28.0,
+        "waktu_lokal": "2026-08-29 18:00:00",
+        "waktu_utc": "2026-08-29 11:00:00"
+      }
+    ],
+    "status": "success",
+    "sumber": "BMKG",
+    "timestamp_request": "2026-08-28 08:01:12"
+  },
+  "cuaca_bmkg": {
+    "arah_angin": "SE",
+    "deskripsi": "Cerah",
+    "jarak_pandang": "< 9 km",
+    "kecepatan_angin_kmh": 12.8,
+    "kelembapan_persen": 73.0,
+    "suhu_c": 29.0,
+    "waktu_lokal": "2026-08-28 09:00:00",
+    "waktu_utc": "2026-08-28 02:00:00"
+  },
+  "lokasi": {
+    "desa": "Simpang Empat",
+    "kabupaten_kota": "Asahan",
+    "kecamatan": "Simpang Empat",
+    "provinsi": "Sumatera Utara"
+  },
+  "rekomendasi": "Perlu cek sensor. JSN membaca 183 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "sensor": {
+    "gpio": {
+      "jsn_echo": 19,
+      "jsn_trig": 26,
+      "relay_sirine": 24,
+      "water_high": 22,
+      "water_low": 17,
+      "water_mid": 27
+    },
+    "jsn_distance_cm": 162.04,
+    "jsn_keterangan": "JSN terbaca.",
+    "jsn_status": "success",
+    "jsn_tinggi_air_cm": 182.96,
+    "keterangan": "Air belum menyentuh sensor level.",
+    "laju_cm_per_menit": 1.68,
+    "laju_sumber": "jsn",
+    "level_air": "KOSONG",
+    "relay_sirine": "OFF",
+    "status_banjir": "aman",
+    "status_laju": "naik",
+    "timestamp": "2026-08-28 08:06:16",
+    "tinggi_air_cm": 0,
+    "valid": true,
+    "water_level": {
+      "rendah": 0,
+      "sedang": 0,
+      "tinggi": 0
+    }
+  },
+  "status": "success",
+  "status_banjir": "cek_sensor",
+  "timestamp": "2026-08-28 08:06:16",
+  "updated_at": "2026-08-28 08:06:19",
   "riwayat": [
     {
-      "waktu": "2026-08-28 07:58:23",
-      "tinggi_air_cm": 176.45,
+      "waktu": "2026-08-28 08:04:08",
+      "tinggi_air_cm": 183.62,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:58:35",
-      "tinggi_air_cm": 175.22,
+      "waktu": "2026-08-28 08:04:20",
+      "tinggi_air_cm": 183.27,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:58:47",
-      "tinggi_air_cm": 174.84,
+      "waktu": "2026-08-28 08:04:32",
+      "tinggi_air_cm": 114.67,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:58:58",
-      "tinggi_air_cm": 175.0,
+      "waktu": "2026-08-28 08:04:44",
+      "tinggi_air_cm": 183.18,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:59:10",
-      "tinggi_air_cm": 175.56,
+      "waktu": "2026-08-28 08:04:55",
+      "tinggi_air_cm": 183.03,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:59:22",
-      "tinggi_air_cm": 175.24,
+      "waktu": "2026-08-28 08:05:07",
+      "tinggi_air_cm": 182.7,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:59:34",
-      "tinggi_air_cm": 176.21,
+      "waktu": "2026-08-28 08:05:19",
+      "tinggi_air_cm": 182.87,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:59:45",
-      "tinggi_air_cm": 176.04,
+      "waktu": "2026-08-28 08:05:31",
+      "tinggi_air_cm": 183.06,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 07:59:57",
-      "tinggi_air_cm": 176.49,
+      "waktu": "2026-08-28 08:05:43",
+      "tinggi_air_cm": 126.06,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 08:00:09",
-      "tinggi_air_cm": 176.63,
+      "waktu": "2026-08-28 08:05:54",
+      "tinggi_air_cm": 183.08,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 08:00:19",
-      "tinggi_air_cm": 179.72,
+      "waktu": "2026-08-28 08:06:06",
+      "tinggi_air_cm": 182.96,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-08-28 08:01:12",
-      "tinggi_air_cm": 179.27,
+      "waktu": "2026-08-28 08:06:18",
+      "tinggi_air_cm": 182.59,
       "status": "cek_sensor"
     }
   ]
