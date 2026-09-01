@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-09-02 03:10:15"
+    "timestamp_request": "2026-09-02 03:20:16"
   },
   "cuaca_bmkg": {
     "arah_angin": "SE",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status BAHAYA. Tinggi air 176 cm mencapai ambang bahaya (138 cm), berpotensi naik ke jalan. Sirine aktif. Masyarakat diminta menjauhi bantaran dan bersiap mengungsi.",
+  "rekomendasi": "Status BAHAYA. Tinggi air 178 cm mencapai ambang bahaya (138 cm), berpotensi naik ke jalan. Sirine aktif. Masyarakat diminta menjauhi bantaran dan bersiap mengungsi.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 168.65,
+    "jsn_distance_cm": 167.03,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 176.35,
+    "jsn_tinggi_air_cm": 177.97,
     "keterangan": "Air mencapai level tinggi. Sirine diaktifkan.",
-    "laju_cm_per_menit": -0.54,
+    "laju_cm_per_menit": 0.25,
     "laju_sumber": "jsn",
     "level_air": "TINGGI",
     "relay_sirine": "ON",
     "status_banjir": "bahaya",
-    "status_laju": "turun",
-    "timestamp": "2026-09-02 03:19:10",
+    "status_laju": "naik",
+    "timestamp": "2026-09-02 03:24:19",
     "tinggi_air_cm": 138,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "bahaya",
-  "timestamp": "2026-09-02 03:19:10",
-  "updated_at": "2026-09-02 03:19:13",
+  "timestamp": "2026-09-02 03:24:19",
+  "updated_at": "2026-09-02 03:24:23",
   "riwayat": [
     {
-      "waktu": "2026-09-02 03:17:00",
+      "waktu": "2026-09-02 03:22:07",
+      "tinggi_air_cm": 178.53,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-02 03:22:19",
+      "tinggi_air_cm": 178.36,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-02 03:22:31",
       "tinggi_air_cm": 179.36,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-09-02 03:17:12",
-      "tinggi_air_cm": 178.55,
+      "waktu": "2026-09-02 03:22:43",
+      "tinggi_air_cm": 178.87,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-09-02 03:17:24",
-      "tinggi_air_cm": 172.04,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-09-02 03:17:36",
-      "tinggi_air_cm": 176.04,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-09-02 03:17:47",
-      "tinggi_air_cm": 178.0,
+      "waktu": "2026-09-02 03:22:54",
+      "tinggi_air_cm": 178.75,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-09-02 03:17:59",
-      "tinggi_air_cm": 175.76,
+      "waktu": "2026-09-02 03:23:06",
+      "tinggi_air_cm": 179.31,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-02 03:23:18",
+      "tinggi_air_cm": 152.66,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-09-02 03:18:11",
-      "tinggi_air_cm": 177.59,
+      "waktu": "2026-09-02 03:23:30",
+      "tinggi_air_cm": 178.65,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-02 03:23:41",
+      "tinggi_air_cm": 178.24,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-02 03:23:53",
+      "tinggi_air_cm": 177.62,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-09-02 03:18:23",
-      "tinggi_air_cm": 177.44,
+      "waktu": "2026-09-02 03:24:05",
+      "tinggi_air_cm": 175.34,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-09-02 03:18:35",
-      "tinggi_air_cm": 177.49,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-09-02 03:18:46",
-      "tinggi_air_cm": 174.36,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-09-02 03:18:58",
-      "tinggi_air_cm": 176.42,
-      "status": "bahaya"
-    },
-    {
-      "waktu": "2026-09-02 03:19:10",
-      "tinggi_air_cm": 176.35,
+      "waktu": "2026-09-02 03:24:17",
+      "tinggi_air_cm": 177.5,
       "status": "bahaya"
     }
   ]
