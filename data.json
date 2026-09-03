@@ -1,32 +1,158 @@
 {
   "bmkg": {
     "cuaca": {
-      "arah_angin": null,
-      "deskripsi": "Tidak tersedia",
-      "jarak_pandang": null,
-      "kecepatan_angin_kmh": null,
-      "kelembapan_persen": null,
-      "suhu_c": null
+      "arah_angin": "W",
+      "deskripsi": "Berawan",
+      "jarak_pandang": "< 7 km",
+      "kecepatan_angin_kmh": 10.6,
+      "kelembapan_persen": 99.0,
+      "suhu_c": 24.0,
+      "waktu_lokal": "2026-09-03 22:00:00",
+      "waktu_utc": "2026-09-03 15:00:00"
     },
     "lokasi": {
       "desa": "Simpang Empat",
       "kecamatan": "Simpang Empat",
       "kotkab": "Asahan",
+      "lat": 2.9085676098,
+      "lon": 99.7461731453,
       "provinsi": "Sumatera Utara"
     },
-    "message": "HTTPSConnectionPool(host='api.bmkg.go.id', port=443): Read timed out. (read timeout=10)",
-    "prakiraan": [],
-    "status": "error",
+    "prakiraan": [
+      {
+        "arah_angin": "W",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 7 km",
+        "kecepatan_angin_kmh": 10.6,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-03 22:00:00",
+        "waktu_utc": "2026-09-03 15:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 7 km",
+        "kecepatan_angin_kmh": 4.3,
+        "kelembapan_persen": 98.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-04 01:00:00",
+        "waktu_utc": "2026-09-03 18:00:00"
+      },
+      {
+        "arah_angin": "E",
+        "deskripsi": "Udara Kabur",
+        "jarak_pandang": "< 4 km",
+        "kecepatan_angin_kmh": 1.6,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-04 04:00:00",
+        "waktu_utc": "2026-09-03 21:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 3.3,
+        "kelembapan_persen": 95.0,
+        "suhu_c": 25.0,
+        "waktu_lokal": "2026-09-04 07:00:00",
+        "waktu_utc": "2026-09-04 00:00:00"
+      },
+      {
+        "arah_angin": "E",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 1.6,
+        "kelembapan_persen": 80.0,
+        "suhu_c": 29.0,
+        "waktu_lokal": "2026-09-04 10:00:00",
+        "waktu_utc": "2026-09-04 03:00:00"
+      },
+      {
+        "arah_angin": "NE",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 7 km",
+        "kecepatan_angin_kmh": 3.5,
+        "kelembapan_persen": 72.0,
+        "suhu_c": 31.0,
+        "waktu_lokal": "2026-09-04 13:00:00",
+        "waktu_utc": "2026-09-04 06:00:00"
+      },
+      {
+        "arah_angin": "N",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 7.5,
+        "kelembapan_persen": 86.0,
+        "suhu_c": 28.0,
+        "waktu_lokal": "2026-09-04 16:00:00",
+        "waktu_utc": "2026-09-04 09:00:00"
+      },
+      {
+        "arah_angin": "SW",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 5.2,
+        "kelembapan_persen": 97.0,
+        "suhu_c": 26.0,
+        "waktu_lokal": "2026-09-04 19:00:00",
+        "waktu_utc": "2026-09-04 12:00:00"
+      },
+      {
+        "arah_angin": "W",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 7 km",
+        "kecepatan_angin_kmh": 4.1,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 25.0,
+        "waktu_lokal": "2026-09-04 22:00:00",
+        "waktu_utc": "2026-09-04 15:00:00"
+      },
+      {
+        "arah_angin": "W",
+        "deskripsi": "Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 3.5,
+        "kelembapan_persen": 99.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-05 01:00:00",
+        "waktu_utc": "2026-09-04 18:00:00"
+      },
+      {
+        "arah_angin": "SW",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "< 7 km",
+        "kecepatan_angin_kmh": 3.5,
+        "kelembapan_persen": 98.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-05 04:00:00",
+        "waktu_utc": "2026-09-04 21:00:00"
+      },
+      {
+        "arah_angin": "W",
+        "deskripsi": "Cerah",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 2.7,
+        "kelembapan_persen": 95.0,
+        "suhu_c": 25.0,
+        "waktu_lokal": "2026-09-05 07:00:00",
+        "waktu_utc": "2026-09-05 00:00:00"
+      }
+    ],
+    "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-09-03 21:35:29"
+    "timestamp_request": "2026-09-03 21:45:18"
   },
   "cuaca_bmkg": {
-    "arah_angin": null,
-    "deskripsi": "Tidak tersedia",
-    "jarak_pandang": null,
-    "kecepatan_angin_kmh": null,
-    "kelembapan_persen": null,
-    "suhu_c": null
+    "arah_angin": "W",
+    "deskripsi": "Berawan",
+    "jarak_pandang": "< 7 km",
+    "kecepatan_angin_kmh": 10.6,
+    "kelembapan_persen": 99.0,
+    "suhu_c": 24.0,
+    "waktu_lokal": "2026-09-03 22:00:00",
+    "waktu_utc": "2026-09-03 15:00:00"
   },
   "lokasi": {
     "desa": "Simpang Empat",
@@ -34,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 19 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
+  "rekomendasi": "Status AMAN. Tinggi air 15 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -44,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 326.16,
+    "jsn_distance_cm": 330.33,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 18.84,
+    "jsn_tinggi_air_cm": 14.67,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": -2.14,
+    "laju_cm_per_menit": -1.07,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
     "status_laju": "turun",
-    "timestamp": "2026-09-03 21:40:36",
+    "timestamp": "2026-09-03 21:45:42",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -66,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "aman",
-  "timestamp": "2026-09-03 21:40:36",
-  "updated_at": "2026-09-03 21:40:39",
+  "timestamp": "2026-09-03 21:45:42",
+  "updated_at": "2026-09-03 21:45:44",
   "riwayat": [
     {
-      "waktu": "2026-09-03 21:38:19",
-      "tinggi_air_cm": 16.05,
+      "waktu": "2026-09-03 21:43:31",
+      "tinggi_air_cm": 16.1,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:38:31",
-      "tinggi_air_cm": 15.55,
+      "waktu": "2026-09-03 21:43:43",
+      "tinggi_air_cm": 14.8,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:38:43",
-      "tinggi_air_cm": 15.62,
+      "waktu": "2026-09-03 21:43:55",
+      "tinggi_air_cm": 15.18,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:38:55",
-      "tinggi_air_cm": 29.42,
+      "waktu": "2026-09-03 21:44:07",
+      "tinggi_air_cm": 15.61,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:39:07",
-      "tinggi_air_cm": 15.13,
+      "waktu": "2026-09-03 21:44:19",
+      "tinggi_air_cm": 14.76,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:39:19",
-      "tinggi_air_cm": 15.15,
+      "waktu": "2026-09-03 21:44:31",
+      "tinggi_air_cm": 15.6,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:39:31",
-      "tinggi_air_cm": 15.58,
+      "waktu": "2026-09-03 21:44:43",
+      "tinggi_air_cm": 20.66,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:39:43",
-      "tinggi_air_cm": 15.97,
+      "waktu": "2026-09-03 21:44:55",
+      "tinggi_air_cm": 15.21,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:39:55",
-      "tinggi_air_cm": 27.32,
+      "waktu": "2026-09-03 21:45:07",
+      "tinggi_air_cm": 15.65,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:40:07",
-      "tinggi_air_cm": 15.17,
+      "waktu": "2026-09-03 21:45:20",
+      "tinggi_air_cm": 15.65,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:40:19",
-      "tinggi_air_cm": 14.68,
+      "waktu": "2026-09-03 21:45:32",
+      "tinggi_air_cm": 14.3,
       "status": "aman"
     },
     {
-      "waktu": "2026-09-03 21:40:31",
-      "tinggi_air_cm": 29.83,
+      "waktu": "2026-09-03 21:45:44",
+      "tinggi_air_cm": 15.11,
       "status": "aman"
     }
   ]
