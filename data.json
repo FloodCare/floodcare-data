@@ -1,14 +1,14 @@
 {
   "bmkg": {
     "cuaca": {
-      "arah_angin": "NE",
+      "arah_angin": "SW",
       "deskripsi": "Cerah Berawan",
-      "jarak_pandang": "< 9 km",
-      "kecepatan_angin_kmh": 4.5,
-      "kelembapan_persen": 68.0,
-      "suhu_c": 32.0,
-      "waktu_lokal": "2026-09-09 13:00:00",
-      "waktu_utc": "2026-09-09 06:00:00"
+      "jarak_pandang": "< 8 km",
+      "kecepatan_angin_kmh": 2.5,
+      "kelembapan_persen": 88.0,
+      "suhu_c": 28.0,
+      "waktu_lokal": "2026-09-09 16:00:00",
+      "waktu_utc": "2026-09-09 09:00:00"
     },
     "lokasi": {
       "desa": "Simpang Empat",
@@ -19,16 +19,6 @@
       "provinsi": "Sumatera Utara"
     },
     "prakiraan": [
-      {
-        "arah_angin": "NE",
-        "deskripsi": "Cerah Berawan",
-        "jarak_pandang": "< 9 km",
-        "kecepatan_angin_kmh": 4.5,
-        "kelembapan_persen": 68.0,
-        "suhu_c": 32.0,
-        "waktu_lokal": "2026-09-09 13:00:00",
-        "waktu_utc": "2026-09-09 06:00:00"
-      },
       {
         "arah_angin": "SW",
         "deskripsi": "Cerah Berawan",
@@ -138,21 +128,31 @@
         "suhu_c": 24.0,
         "waktu_lokal": "2026-09-10 22:00:00",
         "waktu_utc": "2026-09-10 15:00:00"
+      },
+      {
+        "arah_angin": "SE",
+        "deskripsi": "Cerah Berawan",
+        "jarak_pandang": "< 8 km",
+        "kecepatan_angin_kmh": 2.5,
+        "kelembapan_persen": 98.0,
+        "suhu_c": 24.0,
+        "waktu_lokal": "2026-09-11 01:00:00",
+        "waktu_utc": "2026-09-10 18:00:00"
       }
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-09-09 13:24:12"
+    "timestamp_request": "2026-09-09 15:23:06"
   },
   "cuaca_bmkg": {
-    "arah_angin": "NE",
+    "arah_angin": "SW",
     "deskripsi": "Cerah Berawan",
-    "jarak_pandang": "< 9 km",
-    "kecepatan_angin_kmh": 4.5,
-    "kelembapan_persen": 68.0,
-    "suhu_c": 32.0,
-    "waktu_lokal": "2026-09-09 13:00:00",
-    "waktu_utc": "2026-09-09 06:00:00"
+    "jarak_pandang": "< 8 km",
+    "kecepatan_angin_kmh": 2.5,
+    "kelembapan_persen": 88.0,
+    "suhu_c": 28.0,
+    "waktu_lokal": "2026-09-09 16:00:00",
+    "waktu_utc": "2026-09-09 09:00:00"
   },
   "lokasi": {
     "desa": "Simpang Empat",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 110 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Perlu cek sensor. JSN membaca 179 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 235.08,
+    "jsn_distance_cm": 165.93,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 109.92,
+    "jsn_tinggi_air_cm": 179.07,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 7.37,
+    "laju_cm_per_menit": 0.63,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "naik_sangat_cepat",
-    "timestamp": "2026-09-09 13:32:14",
+    "status_laju": "naik",
+    "timestamp": "2026-09-09 15:24:24",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,68 +192,68 @@
   },
   "status": "success",
   "status_banjir": "cek_sensor",
-  "timestamp": "2026-09-09 13:32:14",
-  "updated_at": "2026-09-09 13:32:17",
+  "timestamp": "2026-09-09 15:24:24",
+  "updated_at": "2026-09-09 15:24:30",
   "riwayat": [
     {
-      "waktu": "2026-09-09 13:29:56",
-      "tinggi_air_cm": 108.06,
+      "waktu": "2026-09-09 13:34:28",
+      "tinggi_air_cm": 88.6,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-09-09 13:34:40",
+      "tinggi_air_cm": 79.75,
+      "status": "aman"
+    },
+    {
+      "waktu": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00002026-09-09 13:30:52",
+      "tinggi_air_cm": 177.16,
       "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-09-09 13:30:08",
-      "tinggi_air_cm": 99.39,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:30:20",
-      "tinggi_air_cm": 111.59,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-09-09 13:30:32",
-      "tinggi_air_cm": 80.29,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:30:43",
-      "tinggi_air_cm": 99.64,
-      "status": "aman"
     },
     {
       "waktu": "2026-09-09 13:30:55",
-      "tinggi_air_cm": 99.71,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:31:07",
-      "tinggi_air_cm": 82.0,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:31:19",
-      "tinggi_air_cm": 81.95,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:31:31",
-      "tinggi_air_cm": 81.11,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:31:43",
-      "tinggi_air_cm": 80.27,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-09-09 13:31:55",
-      "tinggi_air_cm": 112.91,
+      "tinggi_air_cm": 177.32,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-09-09 13:32:07",
-      "tinggi_air_cm": 73.13,
-      "status": "aman"
+      "waktu": "2026-09-09 15:23:06",
+      "tinggi_air_cm": 178.25,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:23:15",
+      "tinggi_air_cm": 179.63,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:23:27",
+      "tinggi_air_cm": 179.62,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:23:39",
+      "tinggi_air_cm": 179.51,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:23:51",
+      "tinggi_air_cm": 180.24,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:24:03",
+      "tinggi_air_cm": 180.27,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:24:14",
+      "tinggi_air_cm": 179.07,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-09-09 15:24:26",
+      "tinggi_air_cm": 180.15,
+      "status": "cek_sensor"
     }
   ]
 }
