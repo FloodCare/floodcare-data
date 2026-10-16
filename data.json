@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-10-16 16:41:11"
+    "timestamp_request": "2026-10-16 16:51:17"
   },
   "cuaca_bmkg": {
     "arah_angin": "N",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 80 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
+  "rekomendasi": "Status AMAN. Tinggi air 0 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 265.1,
+    "jsn_distance_cm": 384.48,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 79.9,
+    "jsn_tinggi_air_cm": 0,
     "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": 12.98,
-    "laju_sumber": "jsn",
+    "laju_cm_per_menit": -15.56,
+    "laju_sumber": "level",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "naik_sangat_cepat",
-    "timestamp": "2026-10-16 16:49:04",
+    "status_laju": "turun",
+    "timestamp": "2026-10-16 16:54:26",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "aman",
-  "timestamp": "2026-10-16 16:49:04",
-  "updated_at": "2026-10-16 16:49:08",
+  "timestamp": "2026-10-16 16:54:26",
+  "updated_at": "2026-10-16 16:54:32",
   "riwayat": [
     {
-      "waktu": "2026-10-16 16:46:47",
-      "tinggi_air_cm": 39.63,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:46:59",
-      "tinggi_air_cm": 27.16,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:47:11",
-      "tinggi_air_cm": 34.29,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:47:23",
-      "tinggi_air_cm": 52.81,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:47:35",
-      "tinggi_air_cm": 18.98,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:47:47",
-      "tinggi_air_cm": 18.93,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:47:59",
-      "tinggi_air_cm": 55.91,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:48:11",
-      "tinggi_air_cm": 38.41,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:48:23",
-      "tinggi_air_cm": 56.89,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:48:35",
-      "tinggi_air_cm": 42.53,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:48:47",
-      "tinggi_air_cm": 19.05,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-16 16:48:59",
+      "waktu": "2026-10-16 16:52:09",
       "tinggi_air_cm": 0.0,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:52:21",
+      "tinggi_air_cm": 27.0,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:52:33",
+      "tinggi_air_cm": 63.29,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:52:45",
+      "tinggi_air_cm": 59.27,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:52:57",
+      "tinggi_air_cm": 18.45,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:53:09",
+      "tinggi_air_cm": 55.33,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:53:21",
+      "tinggi_air_cm": 19.34,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:53:33",
+      "tinggi_air_cm": 0.0,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:53:45",
+      "tinggi_air_cm": 19.33,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:53:57",
+      "tinggi_air_cm": 18.95,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:54:09",
+      "tinggi_air_cm": 46.68,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-16 16:54:21",
+      "tinggi_air_cm": 44.22,
       "status": "aman"
     }
   ]
