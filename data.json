@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status WASPADA. Tinggi air 136 cm, cuaca membaik. Lakukan pemantauan berkala.",
+  "rekomendasi": "Status BAHAYA. Tinggi air 168 cm mencapai ambang bahaya (138 cm), berpotensi naik ke jalan. Sirine aktif. Masyarakat diminta menjauhi bantaran dan bersiap mengungsi.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 208.58,
+    "jsn_distance_cm": 177.36,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 136.42,
+    "jsn_tinggi_air_cm": 167.64,
     "keterangan": "Kombinasi sensor tidak valid. Cek posisi sensor atau wiring.",
-    "laju_cm_per_menit": -11.9,
+    "laju_cm_per_menit": 15.43,
     "laju_sumber": "jsn",
     "level_air": "ERROR",
-    "relay_sirine": "OFF",
+    "relay_sirine": "ON",
     "status_banjir": "cek_sensor",
-    "status_laju": "turun",
-    "timestamp": "2026-10-22 18:10:26",
+    "status_laju": "naik_sangat_cepat",
+    "timestamp": "2026-10-22 18:15:37",
     "tinggi_air_cm": 0,
     "valid": false,
     "water_level": {
@@ -191,69 +191,69 @@
     }
   },
   "status": "success",
-  "status_banjir": "waspada",
-  "timestamp": "2026-10-22 18:10:26",
-  "updated_at": "2026-10-22 18:10:32",
+  "status_banjir": "bahaya",
+  "timestamp": "2026-10-22 18:15:37",
+  "updated_at": "2026-10-22 18:15:42",
   "riwayat": [
     {
-      "waktu": "2026-10-22 18:08:13",
-      "tinggi_air_cm": 163.16,
+      "waktu": "2026-10-22 18:13:32",
+      "tinggi_air_cm": 95.41,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:13:43",
+      "tinggi_air_cm": 120.38,
+      "status": "waspada"
+    },
+    {
+      "waktu": "2026-10-22 18:13:55",
+      "tinggi_air_cm": 95.68,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:14:07",
+      "tinggi_air_cm": 100.01,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:14:19",
+      "tinggi_air_cm": 71.56,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:14:31",
+      "tinggi_air_cm": 132.79,
+      "status": "waspada"
+    },
+    {
+      "waktu": "2026-10-22 18:14:43",
+      "tinggi_air_cm": 95.28,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:14:55",
+      "tinggi_air_cm": 108.47,
+      "status": "waspada"
+    },
+    {
+      "waktu": "2026-10-22 18:15:06",
+      "tinggi_air_cm": 117.23,
+      "status": "waspada"
+    },
+    {
+      "waktu": "2026-10-22 18:15:18",
+      "tinggi_air_cm": 96.12,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:15:30",
+      "tinggi_air_cm": 95.47,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-22 18:15:42",
+      "tinggi_air_cm": 175.57,
       "status": "bahaya"
-    },
-    {
-      "waktu": "2026-10-22 18:08:23",
-      "tinggi_air_cm": 95.37,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:08:35",
-      "tinggi_air_cm": 137.29,
-      "status": "waspada"
-    },
-    {
-      "waktu": "2026-10-22 18:08:47",
-      "tinggi_air_cm": 95.6,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:08:59",
-      "tinggi_air_cm": 95.39,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:09:10",
-      "tinggi_air_cm": 95.18,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:09:22",
-      "tinggi_air_cm": 39.2,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:09:34",
-      "tinggi_air_cm": 95.84,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:09:46",
-      "tinggi_air_cm": 102.55,
-      "status": "waspada"
-    },
-    {
-      "waktu": "2026-10-22 18:09:58",
-      "tinggi_air_cm": 72.93,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-22 18:10:10",
-      "tinggi_air_cm": 130.88,
-      "status": "waspada"
-    },
-    {
-      "waktu": "2026-10-22 18:10:22",
-      "tinggi_air_cm": 136.61,
-      "status": "waspada"
     }
   ]
 }
