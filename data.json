@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-10-24 23:12:13"
+    "timestamp_request": "2026-10-24 23:22:14"
   },
   "cuaca_bmkg": {
     "arah_angin": "NW",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 73 cm normal, hujan ringan. Kondisi terkendali.",
+  "rekomendasi": "Status BAHAYA. Tinggi air 144 cm mencapai ambang bahaya (138 cm), berpotensi naik ke jalan. Sirine aktif. Masyarakat diminta menjauhi bantaran dan bersiap mengungsi.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 271.94,
+    "jsn_distance_cm": 200.72,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 73.06,
+    "jsn_tinggi_air_cm": 144.28,
     "keterangan": "Air mencapai level tinggi. Sirine diaktifkan.",
-    "laju_cm_per_menit": 2.84,
+    "laju_cm_per_menit": 6.24,
     "laju_sumber": "jsn",
     "level_air": "TINGGI",
-    "relay_sirine": "OFF",
+    "relay_sirine": "ON",
     "status_banjir": "bahaya",
-    "status_laju": "naik",
-    "timestamp": "2026-10-24 23:21:58",
+    "status_laju": "naik_sangat_cepat",
+    "timestamp": "2026-10-24 23:27:04",
     "tinggi_air_cm": 138,
     "valid": true,
     "water_level": {
@@ -191,69 +191,69 @@
     }
   },
   "status": "success",
-  "status_banjir": "aman",
-  "timestamp": "2026-10-24 23:21:58",
-  "updated_at": "2026-10-24 23:22:03",
+  "status_banjir": "bahaya",
+  "timestamp": "2026-10-24 23:27:04",
+  "updated_at": "2026-10-24 23:27:10",
   "riwayat": [
     {
-      "waktu": "2026-10-24 23:19:40",
-      "tinggi_air_cm": 80.35,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:19:52",
-      "tinggi_air_cm": 46.91,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:20:04",
-      "tinggi_air_cm": 76.83,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:20:16",
-      "tinggi_air_cm": 74.58,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:20:28",
-      "tinggi_air_cm": 122.02,
+      "waktu": "2026-10-24 23:24:51",
+      "tinggi_air_cm": 159.59,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-10-24 23:20:40",
-      "tinggi_air_cm": 62.91,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:20:52",
-      "tinggi_air_cm": 88.54,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:21:04",
-      "tinggi_air_cm": 131.88,
+      "waktu": "2026-10-24 23:25:03",
+      "tinggi_air_cm": 116.87,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-10-24 23:21:16",
-      "tinggi_air_cm": 99.47,
+      "waktu": "2026-10-24 23:25:15",
+      "tinggi_air_cm": 52.6,
       "status": "aman"
     },
     {
-      "waktu": "2026-10-24 23:21:27",
-      "tinggi_air_cm": 81.32,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-24 23:21:39",
-      "tinggi_air_cm": 123.82,
+      "waktu": "2026-10-24 23:25:27",
+      "tinggi_air_cm": 139.84,
       "status": "bahaya"
     },
     {
-      "waktu": "2026-10-24 23:21:51",
-      "tinggi_air_cm": 80.8,
+      "waktu": "2026-10-24 23:25:39",
+      "tinggi_air_cm": 113.75,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-10-24 23:25:50",
+      "tinggi_air_cm": 67.75,
       "status": "aman"
+    },
+    {
+      "waktu": "2026-10-24 23:26:02",
+      "tinggi_air_cm": 57.87,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-24 23:26:14",
+      "tinggi_air_cm": 120.09,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-10-24 23:26:26",
+      "tinggi_air_cm": 123.77,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-10-24 23:26:38",
+      "tinggi_air_cm": 119.31,
+      "status": "bahaya"
+    },
+    {
+      "waktu": "2026-10-24 23:26:50",
+      "tinggi_air_cm": 97.72,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-24 23:27:02",
+      "tinggi_air_cm": 103.75,
+      "status": "bahaya"
     }
   ]
 }
