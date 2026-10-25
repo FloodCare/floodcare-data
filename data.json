@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-10-25 10:49:13"
+    "timestamp_request": "2026-10-25 10:59:13"
   },
   "cuaca_bmkg": {
     "arah_angin": "SW",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Status AMAN. Tinggi air 64 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
+  "rekomendasi": "Status AMAN. Tinggi air 91 cm normal, cuaca cerah. Tidak ada indikasi banjir.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,89 +170,89 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 281.13,
+    "jsn_distance_cm": 253.7,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 63.87,
-    "keterangan": "Air belum menyentuh sensor level.",
-    "laju_cm_per_menit": -9.29,
+    "jsn_tinggi_air_cm": 91.3,
+    "keterangan": "Air terdeteksi pada level rendah.",
+    "laju_cm_per_menit": 0.42,
     "laju_sumber": "jsn",
-    "level_air": "KOSONG",
+    "level_air": "RENDAH",
     "relay_sirine": "OFF",
     "status_banjir": "aman",
-    "status_laju": "turun",
-    "timestamp": "2026-10-25 10:56:17",
-    "tinggi_air_cm": 0,
+    "status_laju": "naik",
+    "timestamp": "2026-10-25 11:01:26",
+    "tinggi_air_cm": 64,
     "valid": true,
     "water_level": {
-      "rendah": 0,
+      "rendah": 1,
       "sedang": 0,
       "tinggi": 0
     }
   },
   "status": "success",
   "status_banjir": "aman",
-  "timestamp": "2026-10-25 10:56:17",
-  "updated_at": "2026-10-25 10:56:22",
+  "timestamp": "2026-10-25 11:01:26",
+  "updated_at": "2026-10-25 11:01:32",
   "riwayat": [
     {
-      "waktu": "2026-10-25 10:54:08",
-      "tinggi_air_cm": 61.04,
+      "waktu": "2026-10-25 10:59:15",
+      "tinggi_air_cm": 56.05,
       "status": "aman"
     },
     {
-      "waktu": "2026-10-25 10:54:20",
-      "tinggi_air_cm": 88.6,
+      "waktu": "2026-10-25 10:59:27",
+      "tinggi_air_cm": 95.8,
       "status": "aman"
     },
     {
-      "waktu": "2026-10-25 10:54:32",
-      "tinggi_air_cm": 96.24,
+      "waktu": "2026-10-25 10:59:39",
+      "tinggi_air_cm": 77.67,
       "status": "aman"
     },
     {
-      "waktu": "2026-10-25 10:54:44",
-      "tinggi_air_cm": 116.38,
+      "waktu": "2026-10-25 10:59:51",
+      "tinggi_air_cm": 93.17,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-25 11:00:03",
+      "tinggi_air_cm": 84.82,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-25 11:00:15",
+      "tinggi_air_cm": 94.88,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-10-25 11:00:27",
+      "tinggi_air_cm": 117.01,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-10-25 10:54:56",
-      "tinggi_air_cm": 55.99,
-      "status": "aman"
+      "waktu": "2026-10-25 11:00:39",
+      "tinggi_air_cm": 101.73,
+      "status": "waspada"
     },
     {
-      "waktu": "2026-10-25 10:55:08",
-      "tinggi_air_cm": 67.14,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-25 10:55:19",
-      "tinggi_air_cm": 56.58,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-25 10:55:31",
-      "tinggi_air_cm": 59.89,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-25 10:55:43",
-      "tinggi_air_cm": 84.78,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-25 10:55:55",
-      "tinggi_air_cm": 56.06,
-      "status": "aman"
-    },
-    {
-      "waktu": "2026-10-25 10:56:07",
-      "tinggi_air_cm": 104.47,
+      "waktu": "2026-10-25 11:00:51",
+      "tinggi_air_cm": 199.08,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-10-25 10:56:19",
-      "tinggi_air_cm": 85.53,
+      "waktu": "2026-10-25 11:01:02",
+      "tinggi_air_cm": 119.61,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-10-25 11:01:14",
+      "tinggi_air_cm": 117.31,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-10-25 11:01:26",
+      "tinggi_air_cm": 91.3,
       "status": "aman"
     }
   ]
