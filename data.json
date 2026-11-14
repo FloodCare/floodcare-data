@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-11-15 05:44:13"
+    "timestamp_request": "2026-11-15 05:54:16"
   },
   "cuaca_bmkg": {
     "arah_angin": "S",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 177 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Perlu cek sensor. JSN membaca 150 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 168.22,
+    "jsn_distance_cm": 194.61,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 176.78,
-    "keterangan": "Air belum menyentuh sensor level. | Status ditentukan JSN (median 171.4 cm)",
-    "laju_cm_per_menit": 7.06,
+    "jsn_tinggi_air_cm": 150.39,
+    "keterangan": "Air belum menyentuh sensor level. | Status ditentukan JSN (median 150.4 cm)",
+    "laju_cm_per_menit": 2.81,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "bahaya",
-    "status_laju": "naik_sangat_cepat",
-    "timestamp": "2026-11-15 05:52:27",
+    "status_laju": "naik",
+    "timestamp": "2026-11-15 05:57:46",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -192,67 +192,67 @@
   },
   "status": "success",
   "status_banjir": "cek_sensor",
-  "timestamp": "2026-11-15 05:52:27",
-  "updated_at": "2026-11-15 05:52:32",
+  "timestamp": "2026-11-15 05:57:46",
+  "updated_at": "2026-11-15 05:57:52",
   "riwayat": [
     {
-      "waktu": "2026-11-15 05:50:19",
-      "tinggi_air_cm": 170.38,
+      "waktu": "2026-11-15 05:55:38",
+      "tinggi_air_cm": 119.31,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:50:31",
-      "tinggi_air_cm": 174.51,
+      "waktu": "2026-11-15 05:55:50",
+      "tinggi_air_cm": 175.05,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:50:43",
-      "tinggi_air_cm": 139.02,
+      "waktu": "2026-11-15 05:56:02",
+      "tinggi_air_cm": 172.58,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:50:55",
-      "tinggi_air_cm": 114.93,
+      "waktu": "2026-11-15 05:56:14",
+      "tinggi_air_cm": 174.24,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:51:06",
-      "tinggi_air_cm": 120.77,
+      "waktu": "2026-11-15 05:56:26",
+      "tinggi_air_cm": 153.35,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:51:18",
-      "tinggi_air_cm": 175.32,
+      "waktu": "2026-11-15 05:56:37",
+      "tinggi_air_cm": 170.47,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:51:30",
-      "tinggi_air_cm": 174.39,
+      "waktu": "2026-11-15 05:56:49",
+      "tinggi_air_cm": 111.68,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:51:42",
-      "tinggi_air_cm": 171.44,
+      "waktu": "2026-11-15 05:57:01",
+      "tinggi_air_cm": 130.06,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:51:54",
-      "tinggi_air_cm": 130.23,
+      "waktu": "2026-11-15 05:57:13",
+      "tinggi_air_cm": 132.3,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:52:05",
-      "tinggi_air_cm": 171.79,
+      "waktu": "2026-11-15 05:57:25",
+      "tinggi_air_cm": 176.71,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:52:17",
-      "tinggi_air_cm": 154.22,
+      "waktu": "2026-11-15 05:57:36",
+      "tinggi_air_cm": 162.68,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 05:52:29",
-      "tinggi_air_cm": 164.72,
+      "waktu": "2026-11-15 05:57:48",
+      "tinggi_air_cm": 183.72,
       "status": "cek_sensor"
     }
   ]
