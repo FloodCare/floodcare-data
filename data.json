@@ -142,7 +142,7 @@
     ],
     "status": "success",
     "sumber": "BMKG",
-    "timestamp_request": "2026-11-15 04:32:13"
+    "timestamp_request": "2026-11-15 04:42:15"
   },
   "cuaca_bmkg": {
     "arah_angin": "NW",
@@ -160,7 +160,7 @@
     "kecamatan": "Simpang Empat",
     "provinsi": "Sumatera Utara"
   },
-  "rekomendasi": "Perlu cek sensor. JSN membaca 127 cm namun sensor level 'KOSONG' dan cuaca cerah. Besar kemungkinan sensor JSN terhalang (sarang/daun/benda). Mohon periksa fisik sensor.",
+  "rekomendasi": "Status AMAN. Tinggi air 97 cm normal, hujan ringan. Kondisi terkendali.",
   "sensor": {
     "gpio": {
       "jsn_echo": 19,
@@ -170,18 +170,18 @@
       "water_low": 17,
       "water_mid": 27
     },
-    "jsn_distance_cm": 217.66,
+    "jsn_distance_cm": 247.51,
     "jsn_keterangan": "JSN terbaca.",
     "jsn_status": "success",
-    "jsn_tinggi_air_cm": 127.34,
-    "keterangan": "Air belum menyentuh sensor level. | Status ditentukan JSN (median 155.2 cm)",
-    "laju_cm_per_menit": 17.83,
+    "jsn_tinggi_air_cm": 97.49,
+    "keterangan": "Air belum menyentuh sensor level. | Status ditentukan JSN (median 130.9 cm)",
+    "laju_cm_per_menit": -13.78,
     "laju_sumber": "jsn",
     "level_air": "KOSONG",
     "relay_sirine": "OFF",
     "status_banjir": "waspada",
-    "status_laju": "naik_sangat_cepat",
-    "timestamp": "2026-11-15 04:39:59",
+    "status_laju": "turun",
+    "timestamp": "2026-11-15 04:45:17",
     "tinggi_air_cm": 0,
     "valid": true,
     "water_level": {
@@ -191,69 +191,69 @@
     }
   },
   "status": "success",
-  "status_banjir": "cek_sensor",
-  "timestamp": "2026-11-15 04:39:59",
-  "updated_at": "2026-11-15 04:40:06",
+  "status_banjir": "aman",
+  "timestamp": "2026-11-15 04:45:17",
+  "updated_at": "2026-11-15 04:45:22",
   "riwayat": [
     {
-      "waktu": "2026-11-15 04:37:47",
-      "tinggi_air_cm": 130.83,
+      "waktu": "2026-11-15 04:43:07",
+      "tinggi_air_cm": 133.78,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:37:59",
-      "tinggi_air_cm": 160.14,
+      "waktu": "2026-11-15 04:43:18",
+      "tinggi_air_cm": 137.01,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:38:10",
-      "tinggi_air_cm": 166.77,
+      "waktu": "2026-11-15 04:43:30",
+      "tinggi_air_cm": 125.39,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:38:22",
-      "tinggi_air_cm": 171.78,
+      "waktu": "2026-11-15 04:43:42",
+      "tinggi_air_cm": 171.89,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:38:34",
-      "tinggi_air_cm": 115.16,
+      "waktu": "2026-11-15 04:43:54",
+      "tinggi_air_cm": 151.8,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:38:46",
-      "tinggi_air_cm": 155.94,
+      "waktu": "2026-11-15 04:44:06",
+      "tinggi_air_cm": 160.38,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:38:58",
-      "tinggi_air_cm": 106.91,
+      "waktu": "2026-11-15 04:44:18",
+      "tinggi_air_cm": 96.56,
+      "status": "aman"
+    },
+    {
+      "waktu": "2026-11-15 04:44:29",
+      "tinggi_air_cm": 119.63,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:39:10",
+      "waktu": "2026-11-15 04:44:41",
+      "tinggi_air_cm": 112.8,
+      "status": "cek_sensor"
+    },
+    {
+      "waktu": "2026-11-15 04:44:53",
       "tinggi_air_cm": 167.06,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:39:21",
-      "tinggi_air_cm": 172.14,
+      "waktu": "2026-11-15 04:45:05",
+      "tinggi_air_cm": 157.62,
       "status": "cek_sensor"
     },
     {
-      "waktu": "2026-11-15 04:39:33",
-      "tinggi_air_cm": 65.04,
+      "waktu": "2026-11-15 04:45:17",
+      "tinggi_air_cm": 97.49,
       "status": "aman"
-    },
-    {
-      "waktu": "2026-11-15 04:39:45",
-      "tinggi_air_cm": 155.24,
-      "status": "cek_sensor"
-    },
-    {
-      "waktu": "2026-11-15 04:39:57",
-      "tinggi_air_cm": 168.47,
-      "status": "cek_sensor"
     }
   ]
 }
